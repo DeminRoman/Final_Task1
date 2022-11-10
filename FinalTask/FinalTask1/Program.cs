@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-Clear();
+Console.Clear();
 
 string[] array = AskArray();
 string[] result = FindLessThan(array, 3);
